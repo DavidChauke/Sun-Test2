@@ -31,11 +31,11 @@ window.onload = () => {
  
   // Fetch South Africa time from WorldTimeAPI
   
-   // fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
+   /* fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
     .then(response => {
       if (!response.ok) throw new Error('Failed to fetch time');
       return response.json();
-    })
+    }) 
     .then(data => {
       const currentDate = new Date(data.datetime);
       showEventImage(currentDate);
@@ -45,7 +45,7 @@ window.onload = () => {
       const localDate = new Date();
       showEventImage(localDate);
     });
-}; 
+}; */
   
   //uncomment the above code here to test
   
