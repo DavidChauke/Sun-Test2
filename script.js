@@ -22,10 +22,12 @@ window.onload = () => {
 
   // **Change this part to manually set a test date**
 
-  * const currentDate = new Date('2025-04-22'); // Change this line for different dates
-  showEventImage(currentDate); */
+  const currentDate = new Date('2025-04-22'); // Change this line for different dates
+  showEventImage(currentDate); 
 
-  // Comment out the fetch call if you're using the manual date above
+  // Comment out the above to go back to normal
+
+  //uncomment code here to test
 /*  
   // Fetch South Africa time from WorldTimeAPI
   fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
@@ -43,7 +45,8 @@ window.onload = () => {
       showEventImage(localDate);
     });
 };
-
+*/ //uncomment code here to test
+  
 // Function to show the event image based on today's date
 function showEventImage(date) {
   // Format date to YYYY-MM-DD
