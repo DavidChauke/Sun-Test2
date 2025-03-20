@@ -7,8 +7,8 @@ const eventImage = document.getElementById('event-image');
 const eventImages = {
   '2025-03-21': 'Day 1.jpg', // Monday, April 7, 2025
   '2025-03-22': 'day 2.jpg', // Tuesday, April 8, 2025
-  '2025-04-09': 'day 3.jpg', // Wednesday, April 9, 2025
-  '2025-04-10': 'day 4.jpg', // Thursday, April 10, 2025
+  '2025-03-23': 'day 3.jpg', // Wednesday, April 9, 2025
+  '2025-03-24': 'day 4.jpg', // Thursday, April 10, 2025
   '2025-04-11': 'day 5.jpg'  // Friday, April 11, 2025
 };
 
