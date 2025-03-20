@@ -31,7 +31,7 @@ window.onload = () => {
  
   // Fetch South Africa time from WorldTimeAPI
   
-   fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
+   // fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
     .then(response => {
       if (!response.ok) throw new Error('Failed to fetch time');
       return response.json();
