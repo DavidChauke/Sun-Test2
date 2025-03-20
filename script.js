@@ -5,8 +5,8 @@ const eventImage = document.getElementById('event-image');
 
 // Map of specific dates to images (use YYYY-MM-DD format)
 const eventImages = {
-  '2025-04-07': 'Day 1.jpg', // Monday, April 7, 2025
-  '2025-04-08': 'day 2.jpg', // Tuesday, April 8, 2025
+  '2025-03-21': 'Day 1.jpg', // Monday, April 7, 2025
+  '2025-03-22': 'day 2.jpg', // Tuesday, April 8, 2025
   '2025-04-09': 'day 3.jpg', // Wednesday, April 9, 2025
   '2025-04-10': 'day 4.jpg', // Thursday, April 10, 2025
   '2025-04-11': 'day 5.jpg'  // Friday, April 11, 2025
