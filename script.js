@@ -28,9 +28,10 @@ window.onload = () => {
   // Comment out the above to go back to normal
 
   //uncomment code here to test
-/*  
+ 
   // Fetch South Africa time from WorldTimeAPI
-  fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
+  
+  /* fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
     .then(response => {
       if (!response.ok) throw new Error('Failed to fetch time');
       return response.json();
