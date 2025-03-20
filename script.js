@@ -22,7 +22,7 @@ window.onload = () => {
 
   // **Change this part to manually set a test date**
 
-  const currentDate = new Date('2025-04-22'); // Change this line for different dates
+  const currentDate = new Date('2025-04-07'); // Change this line for different dates
   showEventImage(currentDate); 
 
   // Comment out the above to go back to normal
@@ -44,8 +44,9 @@ window.onload = () => {
       const localDate = new Date();
       showEventImage(localDate);
     });
-};
-*/ //uncomment code here to test
+}; */ 
+  
+  //uncomment the above code here to test
   
 // Function to show the event image based on today's date
 function showEventImage(date) {
