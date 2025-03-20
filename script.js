@@ -22,8 +22,8 @@ window.onload = () => {
 
   // **Change this part to manually set a test date**
 
-  /* const currentDate = new Date('2025-04-09'); // Change this line for different dates
-  showEventImage(currentDate); */
+  const currentDate = new Date('2025-04-09'); // Change this line for different dates
+  showEventImage(currentDate);
 
   // Comment out the above to go back to normal
 
@@ -31,7 +31,7 @@ window.onload = () => {
  
   // Fetch South Africa time from WorldTimeAPI
   
-  fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
+   fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
     .then(response => {
       if (!response.ok) throw new Error('Failed to fetch time');
       return response.json();
@@ -45,7 +45,7 @@ window.onload = () => {
       const localDate = new Date();
       showEventImage(localDate);
     });
-};
+}; 
   
   //uncomment the above code here to test
   
