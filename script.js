@@ -22,7 +22,7 @@ window.onload = () => {
 
   // **Change this part to manually set a test date**
 
-  const currentDate = new Date('2025-04-07'); // Change this line for different dates
+  const currentDate = new Date('2025-04-09'); // Change this line for different dates
   showEventImage(currentDate); 
 
   // Comment out the above to go back to normal
