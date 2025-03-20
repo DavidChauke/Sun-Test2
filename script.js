@@ -22,11 +22,11 @@ window.onload = () => {
 
   // **Change this part to manually set a test date**
 
-  /* const currentDate = new Date('2025-04-22'); // Change this line for different dates
+  * const currentDate = new Date('2025-04-22'); // Change this line for different dates
   showEventImage(currentDate); */
 
   // Comment out the fetch call if you're using the manual date above
-  
+/*  
   // Fetch South Africa time from WorldTimeAPI
   fetch('http://worldtimeapi.org/api/timezone/Africa/Johannesburg')
     .then(response => {
